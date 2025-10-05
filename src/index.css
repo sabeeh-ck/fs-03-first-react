@@ -1,34 +1,35 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #27292c;
-    color: white;
+    font-family: "Inter", sans-serif;
 }
 
-h1 {
-    margin-top: 30px;
+img {
+    display: block;
 }
 
-.header {
+header {
+    background-color: #21222a;
+    padding: 2rem 1.5rem;
+}
+
+nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 0.5rem;
+    height: 100%;
 }
 
-.nav-list {
-    list-style: none;
-    display: flex;
+nav > img {
+    width: 2rem;
 }
 
-.nav-list-item {
-    margin-left: 10px;
-    font-size: 1.1rem;
-}
-
-.nav-logo {
-    width: 55px;
+nav > span {
+    color: #61dafb;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
